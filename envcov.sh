@@ -9,6 +9,6 @@ source env.sh
 # Change the report name if you like:
 LCOV_INFO=Coverage.info
 
-LCOV_PATH=${SRCROOT}/XcodeCoverage/lcov-1.10/bin
+LCOV_PATH=/usr/local/bin
 LCOV=${LCOV_PATH}/lcov
 OBJ_DIR=${OBJECT_FILE_DIR_normal}/${CURRENT_ARCH}
